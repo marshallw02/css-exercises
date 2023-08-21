@@ -24,3 +24,31 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+.title {
+  margin-bottom: 32px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flowers-all {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.flower {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+img {
+  margin: auto;
+  margin-bottom: 8px;
+}
