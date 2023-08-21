@@ -51,4 +51,30 @@ ul {
 
 .header {
   display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: -20px;
+}
+
+ul {
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.left-side {
+  margin-left: 8px;
+  margin-right: auto;
+  display: flex;
+}
+
+.right-side {
+  margin-left: auto;
+  margin-right: 8px;
+  display: flex;
+  gap: 16px;
 }
